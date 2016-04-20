@@ -82,12 +82,7 @@ public class MyView extends View {
             } else {
                 if (draw || curr.getPaint().getColor() != Color.YELLOW) {
                     canvas.drawCircle(curr.getX(), curr.getY(), curr.getRadius(), curr.getPaint());
-//                    Matrix scale = new Matrix();
-//                    scale.setScale(scaleSize, scaleSize, curr.getX(), curr.getY());
-//                    Path path = new Path();
-//                    path.addCircle(curr.getX(), curr.getY(), curr.getRadius(), Path.Direction.CCW);
-//                    path.transform(scale);
-//                    canvas.drawPath(path, curr.getPaint());
+
                 }
             }
         }
